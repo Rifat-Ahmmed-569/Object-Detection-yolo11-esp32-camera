@@ -85,7 +85,10 @@ const char* ssid = "YOUR_WIFI_NAME";
 const char* password = "YOUR_WIFI_PASSWORD";
 ```
 
-Upload the sketch.
+Before uploading plug out the usb cable hold the reseat button, plug in the esp cam upload the sketch then release the reseat button. Now press the boot button. 
+
+On Serial buad 115200 a ip will pop up then use the ip in your yolo code in vs studio, you can also test camera streaming by running the ip on your browser (but you have to stay in a single connected network)
+
 
 ---
 
