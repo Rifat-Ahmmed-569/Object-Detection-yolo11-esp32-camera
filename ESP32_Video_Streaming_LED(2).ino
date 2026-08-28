@@ -7,8 +7,8 @@
 // Wi-Fi settings
 // ============================================================
 
-const char *WIFI_SSID = "Aspirants ";
-const char *WIFI_PASSWORD = "Rifat12#";
+const char *WIFI_SSID = "Your wifi name";
+const char *WIFI_PASSWORD = "Your wifi password";
 
 // ============================================================
 // GPIO settings
