@@ -250,11 +250,6 @@ it powers on, to decide how to behave.
 
 <img width="1920" height="1080" alt="ESP32-LED-WIRING" src="https://github.com/user-attachments/assets/0f87a8a4-1fd8-4fbc-a6ff-fd4d7e5712cf" />
 
-```
-   GPIO13 ──[ 220Ω ]──►|── GND
-                       LED
-                   (long leg toward the resistor)
-```
 
 > [!CAUTION]
 > **GPIO12 is a strapping pin.** On the ESP32, GPIO12 (`MTDI`) is read *during boot* to decide the
