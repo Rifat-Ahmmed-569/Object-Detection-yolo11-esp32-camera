@@ -332,7 +332,7 @@ esp32-cam-yolo11-person-detection/
 
 ### Step 1 — Flash the ESP32-CAM
 
-1. Open `esp32/YOUR_ESP32_CODE.ino` **`<PLACEHOLDER>`** in Arduino IDE.
+1. Open `ESP32_Video_Streaming_LED(2).ino` **`<PLACEHOLDER>`** in Arduino IDE.
 2. Copy `esp32/secrets.example.h` → `esp32/secrets.h` and fill in your Wi-Fi name and password.
 3. **Tools → Board → ESP32 Arduino → AI Thinker ESP32-CAM**
 4. **Tools → Partition Scheme → Huge APP (3MB No OTA/1MB SPIFFS)** ← *required, the sketch will not fit otherwise*
