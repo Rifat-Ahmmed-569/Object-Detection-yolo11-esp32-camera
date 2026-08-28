@@ -244,11 +244,11 @@ it powers on, to decide how to behave.
 
 | ESP32-CAM pin | Connect to |
 |---|---|
-| `5V` | 5V supply, ≥1A |
-| `GND` | Supply GND, plus LED cathode |
-| `GPIO13` | → 220Ω resistor → LED anode |
-| `GPIO12` | Leave **unconnected** |
-| `IO0` | Leave **unconnected** |
+| `GPIO13` |LED Positive |
+| `GPIO12` | LED Negatove |
+
+
+<img width="1920" height="1080" alt="ESP32-LED-WIRING" src="https://github.com/user-attachments/assets/0f87a8a4-1fd8-4fbc-a6ff-fd4d7e5712cf" />
 
 ```
    GPIO13 ──[ 220Ω ]──►|── GND
