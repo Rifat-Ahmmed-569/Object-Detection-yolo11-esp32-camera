@@ -221,6 +221,8 @@ matter how busy the video is.
 > **TX goes to RX and RX goes to TX. They cross over.** Think of it like a phone call: your mouth
 > (TX) talks to their ear (RX). Connect TX→TX and you get `Failed to connect to ESP32`.
 
+#Note: Before uploading the code you must plug out the esp32 ensuring it is not getting any power into the board. Press the BOOT button: hold it and plug in the USB cable; then upload the code when uploading is finised the release the boot button.
+
 **Why `IO0` → `GND`?** GPIO0 is a **strapping pin** — a pin the chip reads once, at the exact moment
 it powers on, to decide how to behave.
 
