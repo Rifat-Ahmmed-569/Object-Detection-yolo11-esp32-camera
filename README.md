@@ -17,7 +17,7 @@
 
 > [!IMPORTANT]
 > **Placeholder filenames.** The two source files are referred to throughout as
-> `YOUR_ESP32_CODE.ino` and `YOUR_YOLO_SCRIPT.py`. Replace them with your real filenames after you
+> `ESP32_Video_Streaming_LED(2).ino` and `opencv_esp_video_streaming_human_detection_led(2).py`. Replace them with your real filenames after you
 > add your code. Every placeholder is marked **`<PLACEHOLDER>`**. There is a
 > [find-and-replace recipe](#replacing-the-placeholders) at the end.
 
